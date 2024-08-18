@@ -27,7 +27,7 @@ const dispatch = useDispatch()
     <div>
         <form onSubmit={handleSubmit}>
   <div className="form-group">
-    <label for="exampleInputEmail1">Name</label>
+    <label for="exampleInputEmail1">Name of Employee</label>
     <input onChange={handleChange} value={addEmployee.name} type="text" name='name' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name"/>
   </div>
   <div class="form-group">
